@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a simple React app with the sole aim of being refactored to use Redux. Pretty basic stuff. Ideal for Absolute Redux beginners.
 
-![Hello Redux](https://i.imgur.com/S3Oarek.png)
+![React With Redux](https://cdn-images-1.medium.com/max/1600/1*cMyXhbaUYCJwjYG3nNrImw.jpeg)
 
 
 ## Directions 
@@ -17,4 +17,3 @@ This is a simple React app with the sole aim of being refactored to use Redux. P
 3. Run the application 
 ```npm start```
 
-4. Go on and refactor to use Redux!
