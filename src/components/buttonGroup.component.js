@@ -1,5 +1,6 @@
 import React from "react";
-import store from "../store";
+import {store} from "../store";
+import {setTechnology} from "../actions"
 const ButtonGroup = ({ technologies }) => (
   <div>
     {technologies.map((tech, i) => (
@@ -7,7 +8,7 @@ const ButtonGroup = ({ technologies }) => (
         data-tech={tech}
         key={`btn-${i}`}
         className="hello-btn"
-        on-onClick={dispatchBtnAction}
+        onClick={dispatchBtnAction}
       >
         {tech}
       </button>
@@ -21,7 +22,5 @@ function dispatchBtnAction(e) {
   store.dispatch(setTechnology(tech));
 }
 
-// eslint-disable-next-line
-const setTechnology=text=>{return {type:"SET_TECHNOLOGY", tech: text}}
 
 export default ButtonGroup;
